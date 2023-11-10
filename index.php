@@ -39,6 +39,7 @@ if (isset($_SESSION["email"])) {
 
 <div class="container">
     <!-- Display login button / Google profile information -->
+    <p>Hi</p>
     <?php echo $output; ?>
     <a href="logout.php">logout</a>
 </div>
